@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.225); /* Transparent background */
+    color: #fff;
+    padding: 0.5rem 0; /* Reduced padding for a more compact header */
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow for better separation */
+}
+
+header .container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space out the logo and navigation */
+}
+
+header .logo {
+    font-size: 1.5rem; /* Slightly smaller logo text */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+header nav ul li {
+    margin-left: 1rem; /* Reduced margin for a tighter look */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem; /* Slightly smaller font size */
+    padding: 0.5rem; /* Add padding for better click area */
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff9800; /* Hover color */
+}
+
+/* Main Content Styles */
+main {
+    padding: 5rem 0; /* Add padding to account for fixed header */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+/* Categories Section Styles */
+.categories {
+    background: #ffffffc8; /* Background color for the categories section */
+    padding: 2rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 2rem;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items horizontally */
+}
+
+.categories ul li {
+    margin: 0.5rem 1rem; /* Space between items */
+} 
+
+.categories ul li a {
+    display: block;
+    background: #f9f9f9; /* Light background for each category */
+    color: #3333339c;
+    text-decoration: none;
+    padding: 1rem 2rem; /* Padding inside each category link */
+    border-radius: 5px; /* Rounded corners for links */
+    font-size: 1.1rem;
+    transition: background 0.3s ease, color 0.3s ease;
+    text-align: center; /* Center text inside links */
+}
+
+.categories ul li a:hover {
+    background: #050505; /* Highlight color on hover */
+    color: #fff; /* Text color on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+
+
+.posts {
+    margin-top: 2rem;
+}
+
+.posts h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.post-preview {
+    background: #ffffffb8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.post-preview h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.post-preview h4 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-preview h4 a:hover {
+    color: #ff9800; /* Hover color */
+}
+
+.post-preview p {
+    margin: 0.5rem 0 0;
+}
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    background-image: url('bg.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background image fixed during scrolling */
+}
+/* Footer Styles */
+footer {
+    background: #04040473;
+    color: #fbf9f9;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer .social-media {
+    margin-top: 1rem;
+}
+
+footer .social-media a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: #fcfbfb;
+}
